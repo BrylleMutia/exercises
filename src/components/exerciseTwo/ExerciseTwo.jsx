@@ -38,7 +38,7 @@ const ExerciseTwo = () => {
     }
 
     return (
-        <React.Fragment>
+        <div>
             <Link to="/"><Button variant="outlined" color="primary" style={{ margin: "1rem 0 0 1rem" }}>Back</Button></Link>
             <div style={{ display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", height: "80vh" }} >
                 <Button variant="contained" color="primary" onClick={dialogToggle}>
@@ -99,7 +99,7 @@ const ExerciseTwo = () => {
 
                 {itemsA.length && itemsB.length ? <Button onClick={exchangeItems} variant="contained" color="primary" >Exchange Items for Array A & B</Button> : null}
             </div>
-        </React.Fragment>
+        </div>
     );
 }
  
