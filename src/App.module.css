@@ -1,0 +1,47 @@
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: roboto;
+  font-size: 16px;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+.app {
+  width: 100%;
+  max-width: 1420px;
+  margin: 0 auto;
+}
+
+.container {
+  width: 80%;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+@media (max-width: 740px) {
+  .container {
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=App.module.css.map */
